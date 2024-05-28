@@ -1,5 +1,5 @@
 ## ⚠️ Antes de comenzar ⚠️
-Importante aclarar que no es una página web real, es un proyecto creado para el módulo de Desarrollo web en entorno servidor de segundo de ciclo de Desarrollo de aplicaciones web.
+Importante aclarar que no es una página web real, es un proyecto creado para el módulo de Desarrollo web en Entorno Servidor de segundo de ciclo de Desarrollo de aplicaciones web.
 
 # Game Play - Tienda de Videojuegos
 Este proyecto va sobre una web para comprar videojuegos. En el cuál, sus principales funciones serán crear, leer, actualizar y borrar datos (CRUD).
