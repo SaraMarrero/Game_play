@@ -1,0 +1,65 @@
+/* Estilos personalizados para el modo claro */
+.light-mode .menu-button {
+    position: relative;
+    display: inline-block;
+}
+
+.light-mode .dropdown-options {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: white;
+    border: 1px solid #ccc;
+    z-index: 1;
+}
+
+.light-mode .menu-button:hover .dropdown-options {
+    display: block;
+}
+
+#buttonEditar, #buttonBorrar{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+#buttonEditar:active, #buttonBorrar:active{
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+/* Imagen principal */
+.fondo{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+@media screen and (max-width: 767px) {
+    .fondo{
+        background-image: url("/build/img/portadaMovil.png");
+        height: 70vh;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .fondo{
+        background-image: url("/build/img/portadaTablet.png");
+        height: 80vh;
+    }
+}
+
+@media (min-width: 1024px) {
+    .fondo{
+        background-image: url("/build/img/portadaPC.png");
+        height: 100vh;
+        
+    }
+}
+
+.gradientFooter{
+    background: linear-gradient(135deg, #9c1557, #650a3d, #150845, #222c7a, #5e9bbe);
+}
+
+.oscuro{
+    background-color: rgb(148 163 184);
+}

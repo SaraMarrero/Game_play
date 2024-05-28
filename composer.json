@@ -1,0 +1,21 @@
+{
+    "name": "saramarrero/sara-tienda-videojuegos",
+    "description": "Proyecto DSW",
+    "authors": [
+        {
+            "name": "Sara Marrero",
+            "email": "saramarreromiranda@gmail.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.7",
+        "phpdocumentor/phpdocumentor": "^2.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Model\\":"./models",
+            "MVC\\":"./",
+            "Controllers\\":"./controllers"
+        }
+    }
+}
