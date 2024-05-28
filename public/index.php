@@ -12,6 +12,11 @@
 
     $router = new Router();
 
+    // Redireccionar a /index cuando se accede a la raíz del sitio
+    $router->get('/', function () {
+        header('Location: /index');
+        exit();
+    });
 
     // Index Controller //
     $router->get('/index', [IndexController::class, 'index']);
