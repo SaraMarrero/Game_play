@@ -48,5 +48,5 @@ Para llevar a cabo la realización de este proyecto, he utilizado:
 * Xampp
 * Github
 
-## Autora
+## 👩🏻‍💻Autora
 Sara Marrero Miranda
